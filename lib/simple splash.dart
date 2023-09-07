@@ -10,7 +10,7 @@ class Splashsimple extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(backgroundColor:Colors.yellow,
       body:Center(
-        child:Text("kariq",style:TextStyle(fontSize:60,fontWeight:FontWeight.bold,
+        child:Text("THUNDER WATER",style:TextStyle(fontSize:60,fontWeight:FontWeight.bold,
         color:Colors.black87,
         ),
     )
