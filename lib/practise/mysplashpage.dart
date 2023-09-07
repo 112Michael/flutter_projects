@@ -8,8 +8,8 @@ class Splash extends StatelessWidget{ // this page not under go any state change
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title:Text("hi mic")
-        ),
+      appBar: AppBar(title:Text("hi mic")
+      ),
     );
   }
 }

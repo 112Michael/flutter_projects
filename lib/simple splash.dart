@@ -8,12 +8,17 @@ void main()
 class Splashsimple extends StatelessWidget{
   @override
   Widget build(BuildContext context){
-    return Scaffold(backgroundColor:Colors.yellow,
+    return Scaffold(backgroundColor:Colors.black12
+      ,
       body:Center(
-        child:Text("THUNDER WATER",style:TextStyle(fontSize:60,fontWeight:FontWeight.bold,
-        color:Colors.black87,
-        ),
-    )
-      ));
+        child: Column(mainAxisAlignment:MainAxisAlignment.center,
+          children: [
+          Image.asset('asset/icon/spottify.png',height:80,width:80),
+
+        Text("spotify",style:TextStyle(fontSize:50,fontWeight:FontWeight.bold,
+        color:Colors.white38,
+        ),),]
+    ),
+      ),);
   }
 }
