@@ -1,58 +1,28 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_projects/listview/listviewbuilder.dart';
-import 'package:flutter_projects/listview/listviewcustom.dart';
-import 'package:flutter_projects/navbar.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-void main(){
-  runApp(MaterialApp(home: TabEx(),));
+
+class StatefulPage extends StatefulWidget {
+  final String name, location;
+  int? phone;
+  StatefulPage({super.key, required this.name, required this.location, this.phone});
+
+  @override
+  State<StatefulPage> createState() => _StatefulPageState();
 }
-class TabEx extends StatelessWidget {
+
+class _StatefulPageState extends State<StatefulPage> {
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-        length: 4,
-        child: Scaffold(
-          appBar: AppBar(
-            backgroundColor: Colors.teal,
-            title: const Text("WhatsApp"),
-            actions: [
-              const Icon(Icons.search),
-              const Icon(Icons.camera_alt),
-              PopupMenuButton(itemBuilder: (context) {
-                return [
-                  const PopupMenuItem(
-                      child: Text("Settings"))
-                ];
-              })
-            ],
-            bottom:  TabBar(
-                indicatorSize: TabBarIndicatorSize.label,
-                //isScrollable: true,
-                labelPadding: EdgeInsets.zero,
-                tabs: [
-                  SizedBox(
-                      width: MediaQuery.of(context).size.width *.1,
-                      child: FaIcon(FontAwesomeIcons.peopleGroup)),
-                  SizedBox(
-                      width: MediaQuery.of(context).size.width *.3,
-                      child: Text("Chat")),
-                  SizedBox(
-                      width: MediaQuery.of(context).size.width *.3,
-                      child: Text("Status")),
-                  SizedBox(
-                      width: MediaQuery.of(context).size.width *.3,
-                      child: Text("Call"))
-                ]),
-          ),
-          body: TabBarView(
-            children: [
-              Listview_with_builder(),
-              SignUp(),
-              Login2(),
-              ListView_Custom(),
-
-            ],
-          ),
-        ));
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(widget.name),
+            Text(widget.location),
+            Text('${widget.phone}')
+          ],
+        ),
+      ),
+    );
   }
 }

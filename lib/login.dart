@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'lib/home.dart';
+import 'package:flutter_projects/lib/home.dart';
 class LoginPage extends StatelessWidget {
   String uname = "admin";
   String pwd   = "abc123";
