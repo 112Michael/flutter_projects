@@ -11,3 +11,17 @@ class Splashpage extends StatelessWidget{
      appBar:AppBar(
          title:Text('welcome back mic')));
 }}
+class Temperatures {
+  int? userId;
+  int? id;
+  String? title;
+  bool? completed;
+
+  Temperatures({
+    this.userId,
+    this.id,
+    this.title,
+    this.completed,
+  });
+
+}

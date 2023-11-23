@@ -3,15 +3,13 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_projects/blogapp/constant.dart';
-import 'package:flutter_projects/blogapp/screens/login.dart';
+import 'package:flutter_projects/blogapp/models/api_response.dart';
+import 'package:flutter_projects/blogapp/models/post.dart';
+import 'package:flutter_projects/blogapp/services/post_service.dart';
+import 'package:flutter_projects/blogapp/services/user_service.dart';
 import 'package:image_picker/image_picker.dart';
 
-import '../../../../blogapp/models/api_response.dart';
-import '../../../../blogapp/models/post.dart';
-import '../../../../blogapp/services/post_service.dart';
-import '../../../../blogapp/services/user_service.dart';
-
-
+import 'login.dart';
 
 class PostForm extends StatefulWidget {
   final Post? post;

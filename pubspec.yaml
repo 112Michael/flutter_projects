@@ -63,9 +63,9 @@ dependencies:
   iconsax: ^0.0.8
   sensors_plus: ^3.0.3
   screenshot: ^2.1.0
-
-
-
+  flutter_dropdown: ^1.0.1+hotfix.1
+  json_annotation: ^4.3.0
+  image_picker: ^0.7.5+4
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -96,6 +96,7 @@ flutter:
     - asset/icon/
     - asset/image/
     - asset/animation/
+    - asset/json/jsonnnn,json
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

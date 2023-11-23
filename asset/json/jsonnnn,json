@@ -1,0 +1,52 @@
+{"dtVisibility":null,
+  "dtContent":
+[
+  {"ContentId":143,"Category":"Document","ContentType":"","Title":"Documents","Description":"Documents","ContentLink":"Documents","Status":"Y","ScheduleFromDate":"2023-10-24T16:20:04","ScheduleToDate":null,"CompanyName":"Petroinfotech Pvt Ltd"}
+],
+  "dtMonthlyStat":
+  [
+    {"StatisticMonth":"Jan","MONTH_VAL":202301,"LTIFTarget":null,"LTIF":0.00,"TRCFTarget":null,"TRCF":0.00}
+],
+  "dtObsCount":
+  [
+    {"GroupName":"PPE","GroupOrder":1,"ObsCount":152,"color":"#73F278"}
+],
+  "dtCompPerc":[],
+  "dtAbstract":[
+    {"Item":"Pending Actions","Count":341,"Colour":"#BF360C","ScreenUrl":"web-app/action-tracker/pending-list/P","ScreenCode":"AT04","ScreenTitle":"My Pending Action","Module":"AT","ModuleLogo":"Images/logo/modules/AT.png","ModuleLogoNew":"action-tracker","ModuleRight":"true"}
+],
+  "dtImage":
+  [
+    {"DisplaySequence":2,"ImageName":"Oil_Gas_Safety_Worker.jpg","ImageId":8,"ImagePath":"api/Common/GetImage/19262","DocId":19262}
+],
+  "dtPerformance":
+  [
+    {"ItemDescription":"Man Hours Worked","StatisticValue":"","ForSplit":"N"}
+],
+  "dtFrequency":null,
+  "dtSafetyTips":[
+    {"Title":"Stay Alert- Don't get hurt","Description":"Be attentive in the environment one works to avoid getting hurt. Distraction and hazards are a dangerous combination. It just takes one careless or inattentive action to put someone in harm’s way. By staying vigilant, workers can make sure they’re not caught off-guard by existing or newly introduced hazards","Status":1}],
+  "dtDeptActions":null,
+  "dtPendingAction":null,
+  "dtTarget":[
+    {"StatisticMonth":"Nov 2022","MONTH_VAL":202211,"LTIFTarget":null,"LTIF":0.00,"TRCFTarget":null,"TRCF":0.00,"LTIFUnit":0.0}
+],
+  "dtMVIF":[
+    {"StatisticMonth":"Nov 2022","MONTH_VAL":202211,"MVIFTarget":null,"MVIF":0.00,"ROFTarget":null,"ROF":0.00,"MVIFUnit":0.0}
+],
+  "dtLagg":[
+    {"DateVal":"Oct 2020",
+      "SortOrder":202010,"ANM":null,"DM":null,"FAC":null,
+      "FAT":null,"LTI":null,"LTIF":null,"LTIFT":null,"MTC":null,
+      "NMI":null,"RTA":null,"RTAF":null,"RWC":null,"RWDC":null,"TRCF":null,
+      "TRIR":null,"TRIRT":null,"TT":null,"ANM":null,"DM":null,"FAC":null,"FAT":null,
+      "LTI":null,"LTIF":null,"LTIFT":null,"MTC":null,"NMI":null,"RTA":null,"RTAF":null,
+      "RWC":null,"RWDC":null,"TRCF":null,"TRIR":null,"TRIRT":null,"Tot":null}
+  ],
+  "dtLead":[
+    {"DateVal":"Oct 2020","SortOrder":202010,"BP":null,"TRI":null,"BP":null,"Tot":null}
+],
+  "dtPerfTrcf":[
+    {"Year":2019,"AttrName":"FAT","AttrValue":0.0}
+  ]
+}

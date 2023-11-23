@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_projects/blogapp/models/api_response.dart';
 import 'package:flutter_projects/lib/githubapp/api/githubapi.dart';
 import 'package:flutter_projects/lib/githubapp/models/api/response.dart';
 import 'package:flutter_projects/lib/githubapp/models/profile.dart';
